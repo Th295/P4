@@ -1,0 +1,124 @@
+html,
+body {
+    background-color: #f2f2f2;
+    height: 100%;
+    margin: 0;
+}
+
+.home-container {
+    /* height: 65%; */
+}
+
+.meals-contaienr {
+    height: 60%;
+    width: auto;
+}
+
+.training-container {
+    height: 65%;
+}
+
+.about-container {
+    height: 65%;
+}
+
+.jumbotron {
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 0;
+    color: #fff;
+    text-shadow: 1px 1px #000;
+    height: fit-content;
+}
+
+.hero-img-home {
+    background-image: url(../img/home-hero-img.jpg);
+}
+
+.hero-img-meals {
+    background-image: url(../img/meals-hero-img.jpg);
+}
+
+.hero-img-training {
+    background-image: url(../img/training-hero-img.jpg);
+}
+
+nav {
+    background-color: #262626;
+    min-height: 10%;
+}
+
+.btn-outline-light:hover, .btn-outline-light:active {
+    color:#262626!important;
+}
+
+.carousel-container {
+    width: 100%;
+    height: auto;
+}
+
+.meals-card-container {
+    padding: 4rem 0;
+    justify-items: center;
+}
+
+.meals-card {
+    margin: 4rem auto;
+}
+
+.training-img-container {
+    margin: 0 auto;
+    height: 65%;
+}
+
+.training-img {
+    width: 30%;
+    height: auto;
+    transform: scale(1);
+}
+
+.training-img:hover {
+    transform: scale(1.05);
+    transition: .2s;
+}
+
+.training-text {
+    width: 70%;
+}
+
+.section-title {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.about-section-container {
+    height: 100%;
+    padding: 4em 0;
+}
+
+.about-text {
+    padding: 0 4em;
+}
+
+.about-contact {
+    padding: 0 4em;
+}
+
+footer {
+    background-color: #262626;
+    padding: 2rem;
+}
+
+.footer-copyright {
+    color: #d9d9d9;
+}
+
+#copyrightText:link, #copyrightText:visited {
+    text-decoration: none;
+    color: #d9d9d9;
+}
+
+#copyrightText:hover, #copyrightText:active {
+    text-decoration: none;
+    color: #808080;
+}
